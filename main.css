@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 56px 0;
+}
+
+.main {
+    display: flex;
+    gap: 40px;
+
+}
+
+.main li a {
+    color: #1f153486;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.main li a:hover {
+    color: #1f153486;
+    transition: 0.7s;
+}
+
+.im {
+    padding: 14px 37px;
+    border-radius: 55px;
+    background-color: #458FF6;
+    color: white;
+    border: none;
+}
+
+.hi {
+    color: #1F1534;
+}
+
+section {
+    color: #000;
+}
+
+.vamos {
+    color: #7D7987;
+
+}
+
+
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.i {
+    width: 440px;
+    font-size: 19px;
+    color: gray;
+    margin: 30px 0;
+    font-weight: 300;
+
+
+}
+
+.he {
+    font-size: 45px;
+    width: 420px;
+}
+
+
+.messi {
+    color: #7D7987;
+    font-size: 18px;
+    width: 950px;
+    margin: auto;
+    margin-bottom: 36px;
+
+}
+
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.card {
+    width: 380px;
+    height: 380px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #E7E7E7;
+    padding-left: 40px;
+    padding-top: 70px;
+
+}
+
+.text-description {
+    margin-bottom: 60px;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.place_text {
+    margin-top: 40px;
+}
+
+
+.card:hover {
+    background-color: #458FF6;
+}
+
+p {
+    color: gray;
+}
+
+.btn {
+    border: #458FF6 1px solid;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+}
+
+.btn1 {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.text1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 76px;
+    padding-bottom: 75px;
+}
+
+.big_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 117px;
+}
+
+.h3 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 63px;
+}
+
+.intro {
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 42px;
+}
+
+.btn3 {
+    border: #458FF6 1px solid;
+    border-radius: 55px;
+    width: 200px;
+    height: 56px;
+}
+
+.h4 {
+    text-align: center;
+    padding: 109px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+.big-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.text2 {
+    padding-top: 10px;
+    color: rgba(125, 121, 135, 1);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.vamos {
+    font-size: 21px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
+.arrow {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(64, 137, 237, 1);
+    padding-top: 18px;
+}
+
+.information {
+    margin-bottom: 30px;
+}
+
+.btns {
+    text-align: center;
+    padding: 44px;
+}
+
+footer {
+    background-color: #67C3F3;
+    height: 432px;
+    display: flex;
+    align-items: center;
+}
+.miami{
+    padding-top: 17px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+.navs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+.miamis{
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+a{
+    margin-bottom: 5px;
+}
+.dop{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+
+    
+
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
